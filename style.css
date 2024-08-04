@@ -64,9 +64,16 @@ h1 {
 
 .container div i {
     font-size: large;
-    padding-left: 5px;
     color: red;
     cursor: pointer;
 }
 
+body{
+    padding: 20px;
+}
 
+@media (min-width: 1024px) {
+    body {
+        margin:0 25%;
+    }
+}
